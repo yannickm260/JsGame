@@ -1,0 +1,52 @@
+# JsGAME
+
+This project is a simple JavaScript-based game where a character jumps to avoid an obstacle. The game features basic animations created using CSS, HTML, and JavaScript. The user controls the character's jump by clicking a button, and the goal is to avoid colliding with the moving obstacle.
+
+## Features
+
+**Character Animation**: The character moves up and down to simulate jumping.
+**Obstacle Animation**: The obstacle continuously moves from right to left across the screen.
+**Collision Detection**: If the character collides with the obstacle, an alert is triggered, indicating that the player has lost the game.
+**Tailwind CSS**: The project uses Tailwind CSS for styling and layout.
+
+## Technologies Used
+
+**HTML5**: Markup structure for the web page.
+**CSS3**: Basic styling and animations using CSS keyframes.
+**JavaScript**: Handling game logic, including jumping mechanics and collision detection.
+**Tailwind CSS**: Utility-first CSS framework for styling.
+
+## How to Run the Game
+
+**Clone the repository:**
+
+
+git clone https://github.com/yannickm260/JsGame.git
+
+**Navigate to the project directory:**
+
+cd JsGame
+
+Open the index.html file in your web browser.
+
+**How to Play:**
+
+Press the "JUMP" button to make the character jump.
+The goal is to avoid the moving obstacle.
+If the character collides with the obstacle, the game will notify you that you have lost.
+
+# File Structure
+**index.html**: The main HTML file that contains the game structure and layout.
+**backend.js**: The JavaScript file that handles the game logic, including the jump function and collision detection.
+# CSS Animations
+**Character Jump (anime-perso)**: Animates the character to simulate a jump by moving the character up and down.
+**Obstacle Movement (anime-obstacle)**: Moves the obstacle from the right side of the screen to the left, looping infinitely.
+
+# Future Enhancements
+
+Add scoring to track how long the player can avoid the obstacle.
+Implement different levels of difficulty with varying obstacle speeds.
+Add sound effects and background music to enhance the gaming experience.
+
+# Credits
+Tailwind CSS for providing a quick and efficient way to style the game.
